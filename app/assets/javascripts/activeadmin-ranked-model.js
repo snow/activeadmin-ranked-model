@@ -1,6 +1,6 @@
 (function($) {
   $(document).ready(function() {
-    $('.handle').closest('tbody').activeAdminRanked();
+    $('.handle').closest('.ui-sortable').activeAdminRanked();
   });
 
   $.fn.activeAdminRanked = function() {
