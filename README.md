@@ -46,7 +46,7 @@ ActiveAdmin.register Page do
   config.sort_order = 'manual_order'
   config.paginate   = false # optional; drag-and-drop across pages is not supported
 
-  ranked-model(:manual_order) # creates the controller action which handles the sorting
+  ranked(:manual_order) # creates the controller action which handles the sorting
 
   index do
     ranked_handle_column(:manual_order) # inserts a drag handle
