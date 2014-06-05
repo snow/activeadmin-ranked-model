@@ -23,7 +23,6 @@
         var data  = {};
 
         data[ attr ] = ui.item.index();
-        console.log(data)
 
         $.ajax({
           url: url,
