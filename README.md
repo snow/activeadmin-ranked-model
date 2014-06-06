@@ -39,6 +39,8 @@ gem 'activeadmin-ranked-model'
 //= require activeadmin-ranked-model
 ```
 
+Place this require line before Active Admin's own import lines.
+
 ### Configure your ActiveAdmin Resource
 
 ```ruby
